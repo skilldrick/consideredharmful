@@ -35,6 +35,7 @@
     $(document).ready(function () {
         search = new google.search.WebSearch();
         search.setSearchCompleteCallback(document, handler);
+        search.setResultSetSize(8);
         search.execute("'considered harmful'");
         /*
         // Create a search control
