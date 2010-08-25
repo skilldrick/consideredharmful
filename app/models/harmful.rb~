@@ -1,0 +1,5 @@
+class Harmful
+  def initialize
+    puts '*' * 200
+  end
+end

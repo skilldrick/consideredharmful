@@ -1,0 +1,5 @@
+class HarmfulController < ApplicationController
+  def index
+  end
+
+end

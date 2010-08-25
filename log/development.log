@@ -1,0 +1,726 @@
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 19:55:47) [GET]
+
+NameError (uninitialized constant HarmfulController::Harmful):
+  app/controllers/harmful_controller.rb:3:in `index'
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (62.2ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 19:56:19) [GET]
+Rendering harmful/index
+Completed in 70ms (View: 67, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 20:22:16) [GET]
+Rendering harmful/index
+Completed in 424ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 20:22:47) [GET]
+Rendering harmful/index
+Completed in 227ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 20:26:34) [GET]
+Rendering harmful/index
+Completed in 210ms (View: 18, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 20:31:05) [GET]
+
+NoMethodError (undefined method `all' for Harmful:Class):
+  app/controllers/harmful_controller.rb:3:in `index'
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (57.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 20:31:18) [GET]
+Rendering harmful/index
+Completed in 336ms (View: 18, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 20:31:44) [GET]
+Rendering harmful/index
+Completed in 196ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 20:33:44) [GET]
+
+NoMethodError (undefined method `responseData' for #<Hash:0xa04cb6c>):
+  app/models/harmful.rb:25:in `all'
+  app/controllers/harmful_controller.rb:3:in `index'
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (57.9ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 20:33:58) [GET]
+
+NoMethodError (undefined method `title' for #<Hash:0x946682c>):
+  app/models/harmful.rb:27:in `block in all'
+  app/models/harmful.rb:25:in `each'
+  app/models/harmful.rb:25:in `all'
+  app/controllers/harmful_controller.rb:3:in `index'
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (106.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 20:34:06) [GET]
+
+NoMethodError (undefined method `title=' for #<Harmful:0xa088388>):
+  app/models/harmful.rb:27:in `block in all'
+  app/models/harmful.rb:25:in `each'
+  app/models/harmful.rb:25:in `all'
+  app/controllers/harmful_controller.rb:3:in `index'
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (59.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 20:34:30) [GET]
+Rendering harmful/index
+Completed in 189ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 20:35:05) [GET]
+Rendering harmful/index
+Completed in 205ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 20:35:43) [GET]
+Rendering harmful/index
+Completed in 189ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 20:37:24) [GET]
+Rendering harmful/index
+Completed in 354ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 20:37:29) [GET]
+
+OpenURI::HTTPError (404 Not Found):
+  /usr/lib/ruby/1.9.1/open-uri.rb:346:in `open_http'
+  /usr/lib/ruby/1.9.1/open-uri.rb:767:in `buffer_open'
+  /usr/lib/ruby/1.9.1/open-uri.rb:203:in `block in open_loop'
+  /usr/lib/ruby/1.9.1/open-uri.rb:201:in `catch'
+  /usr/lib/ruby/1.9.1/open-uri.rb:201:in `open_loop'
+  /usr/lib/ruby/1.9.1/open-uri.rb:146:in `open_uri'
+  /usr/lib/ruby/1.9.1/open-uri.rb:669:in `open'
+  /usr/lib/ruby/1.9.1/open-uri.rb:33:in `open'
+  app/models/harmful.rb:20:in `load_json'
+  app/models/harmful.rb:29:in `all'
+  app/controllers/harmful_controller.rb:3:in `index'
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (65.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 20:37:48) [GET]
+Rendering harmful/index
+Completed in 287ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 20:37:58) [GET]
+Rendering harmful/index
+Completed in 234ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 20:38:03) [GET]
+Rendering harmful/index
+Completed in 228ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 20:38:14) [GET]
+Rendering harmful/index
+Completed in 190ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 20:39:36) [GET]
+Rendering harmful/index
+Completed in 195ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 20:40:25) [GET]
+Rendering harmful/index
+
+ActionView::TemplateError (undefined method `title' for nil:NilClass) on line #5 of app/views/harmful/index.html.erb:
+2: 
+3: <% @harmfuls.each do |harmful| %>
+4: 
+5: <h2><%= @harmful.title %></h2>
+6: 
+7: <% end %>
+
+    app/views/harmful/index.html.erb:5:in `block in _run_erb_app47views47harmful47index46html46erb'
+    app/views/harmful/index.html.erb:3:in `each'
+    app/views/harmful/index.html.erb:3
+    <internal:prelude>:8:in `synchronize'
+    /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (76.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 20:41:09) [GET]
+Rendering harmful/index
+Completed in 217ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 20:41:14) [GET]
+Rendering harmful/index
+
+ActionView::TemplateError (undefined method `title' for nil:NilClass) on line #6 of app/views/harmful/index.html.erb:
+3: <%= debug @harmfuls %>
+4: <% @harmfuls.each do |harmful| %>
+5: 
+6: <h2><%= @harmful.title %></h2>
+7: 
+8: <% end %>
+
+    app/views/harmful/index.html.erb:6:in `block in _run_erb_app47views47harmful47index46html46erb'
+    app/views/harmful/index.html.erb:4:in `each'
+    app/views/harmful/index.html.erb:4
+    <internal:prelude>:8:in `synchronize'
+    /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (76.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 20:41:47) [GET]
+Rendering harmful/index
+Completed in 203ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 20:42:28) [GET]
+Rendering harmful/index
+Completed in 243ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 20:42:58) [GET]
+Rendering harmful/index
+Completed in 323ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 20:44:54) [GET]
+Rendering template within layouts/application
+Rendering harmful/index
+Completed in 260ms (View: 29, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-25 20:44:54) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 20:45:17) [GET]
+Rendering template within layouts/application
+Rendering harmful/index
+Completed in 188ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-25 20:45:17) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 20:57:24) [GET]
+
+SyntaxError (/home/nick/prog/conharm/app/models/harmful.rb:38: syntax error, unexpected '='
+      harmful.title ~= /<b>/
+                      ^):
+  app/controllers/harmful_controller.rb:3:in `index'
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (70.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 20:57:36) [GET]
+
+NoMethodError (undefined method `find_all!' for #<Array:0x9ba30b0>):
+  app/models/harmful.rb:37:in `all'
+  app/controllers/harmful_controller.rb:3:in `index'
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (59.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 20:57:46) [GET]
+Rendering template within layouts/application
+Rendering harmful/index
+Completed in 251ms (View: 56, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-25 20:57:47) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 20:58:01) [GET]
+
+NameError (undefined local variable or method `new_harmfuls' for Harmful:Class):
+  app/models/harmful.rb:40:in `all'
+  app/controllers/harmful_controller.rb:3:in `index'
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (57.9ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 20:58:15) [GET]
+Rendering template within layouts/application
+Rendering harmful/index
+Completed in 196ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-25 20:58:15) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 21:01:10) [GET]
+
+NoMethodError (undefined method `title' for #<String:0x96143ec>):
+  app/models/harmful.rb:42:in `block in all'
+  app/models/harmful.rb:40:in `each'
+  app/models/harmful.rb:40:in `find_all'
+  app/models/harmful.rb:40:in `all'
+  app/controllers/harmful_controller.rb:3:in `index'
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (60.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 21:02:21) [GET]
+
+NoMethodError (undefined method `title' for #<String:0x9ee4db4>):
+  app/models/harmful.rb:42:in `block in all'
+  app/models/harmful.rb:40:in `each'
+  app/models/harmful.rb:40:in `find_all'
+  app/models/harmful.rb:40:in `all'
+  app/controllers/harmful_controller.rb:3:in `index'
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (84.5ms)
+Rendered rescues/_request_and_response (2.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 21:02:29) [GET]
+Rendering template within layouts/application
+Rendering harmful/index
+Completed in 201ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-25 21:02:29) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 21:08:06) [GET]
+Rendering template within layouts/application
+Rendering harmful/index
+Completed in 332ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-25 21:08:07) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 21:08:39) [GET]
+Rendering template within layouts/application
+Rendering harmful/index
+Completed in 190ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-25 21:08:39) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 21:08:49) [GET]
+Rendering template within layouts/application
+Rendering harmful/index
+Completed in 200ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-25 21:08:50) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 21:09:02) [GET]
+Rendering template within layouts/application
+Rendering harmful/index
+Completed in 250ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-25 21:09:02) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 21:09:05) [GET]
+Rendering template within layouts/application
+Rendering harmful/index
+Completed in 205ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-25 21:09:05) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 21:09:07) [GET]
+Rendering template within layouts/application
+Rendering harmful/index
+Completed in 206ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-25 21:09:07) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 21:09:15) [GET]
+Rendering template within layouts/application
+Rendering harmful/index
+Completed in 269ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-25 21:09:15) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 21:09:21) [GET]
+Rendering template within layouts/application
+Rendering harmful/index
+Completed in 229ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-25 21:09:21) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 21:09:49) [GET]
+Rendering template within layouts/application
+Rendering harmful/index
+Completed in 223ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 21:10:01) [GET]
+Rendering template within layouts/application
+Rendering harmful/index
+Completed in 193ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 21:10:09) [GET]
+Rendering template within layouts/application
+Rendering harmful/index
+Completed in 199ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 21:10:31) [GET]
+Rendering template within layouts/application
+Rendering harmful/index
+Completed in 225ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 21:10:49) [GET]
+Rendering template within layouts/application
+Rendering harmful/index
+Completed in 201ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 21:11:33) [GET]
+Rendering template within layouts/application
+Rendering harmful/index
+Completed in 193ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 21:13:27) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.length):
+  app/models/harmful.rb:38:in `block in all'
+  app/models/harmful.rb:36:in `map!'
+  app/models/harmful.rb:36:in `all'
+  app/controllers/harmful_controller.rb:3:in `index'
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (59.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 21:13:53) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.length):
+  app/models/harmful.rb:38:in `block in all'
+  app/models/harmful.rb:36:in `map!'
+  app/models/harmful.rb:36:in `all'
+  app/controllers/harmful_controller.rb:3:in `index'
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (59.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 21:15:20) [GET]
+Rendering template within layouts/application
+Rendering harmful/index
+Completed in 208ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 21:15:25) [GET]
+Rendering template within layouts/application
+Rendering harmful/index
+Completed in 198ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 21:16:27) [GET]
+Rendering template within layouts/application
+Rendering harmful/index
+Completed in 237ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 21:16:40) [GET]
+
+TypeError (can't convert nil into String):
+  app/models/harmful.rb:40:in `block in all'
+  app/models/harmful.rb:36:in `map!'
+  app/models/harmful.rb:36:in `all'
+  app/controllers/harmful_controller.rb:3:in `index'
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (59.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 21:17:37) [GET]
+
+TypeError (can't convert nil into String):
+  app/models/harmful.rb:40:in `block in all'
+  app/models/harmful.rb:36:in `map!'
+  app/models/harmful.rb:36:in `all'
+  app/controllers/harmful_controller.rb:3:in `index'
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (60.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 21:17:44) [GET]
+
+TypeError (can't convert nil into String):
+  app/models/harmful.rb:40:in `block in all'
+  app/models/harmful.rb:36:in `map!'
+  app/models/harmful.rb:36:in `all'
+  app/controllers/harmful_controller.rb:3:in `index'
+  <internal:prelude>:8:in `synchronize'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (60.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 21:17:48) [GET]
+Rendering template within layouts/application
+Rendering harmful/index
+Completed in 193ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 21:18:13) [GET]
+Rendering template within layouts/application
+Rendering harmful/index
+Completed in 198ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 21:18:26) [GET]
+Rendering template within layouts/application
+Rendering harmful/index
+Completed in 236ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 21:18:50) [GET]
+Rendering template within layouts/application
+Rendering harmful/index
+Completed in 260ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 21:18:55) [GET]
+Rendering template within layouts/application
+Rendering harmful/index
+Completed in 194ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HarmfulController#index (for 127.0.0.1 at 2010-08-25 21:19:32) [GET]
+Rendering template within layouts/application
+Rendering harmful/index
+Completed in 199ms (View: 5, DB: 0) | 200 OK [http://localhost/]
