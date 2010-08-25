@@ -3,17 +3,39 @@
   <head>
     <title>My Google AJAX Search API Application</title>
     <script src="http://www.google.com/jsapi?key=ABQIAAAAWLOrTtZZMVqckifzzqf5ExTJ4z6FYubmaJQBWqBMMbq6Cm7PQhTpBR48VC90aX3PtU5LEktkiQhpnw" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
     <script language="Javascript" type="text/javascript">
     //<![CDATA[
 
     google.load("search", "1");
 
-    function OnLoad() {
-        var search = new google.search.WebSearch();
-        search.execute("'considered harmful'");
-        for(key in search.results) {
-            alert(key);
+    var handler = function () {
+        for(key in search) {
+          if(search.hasOwnProperty(key)) {
+            $('#target').append("<p>" + key + "&nbsp;&nbsp;&nbsp;" + search[key] + "</p>");
+          }
         }
+
+    }
+
+    
+    $(document).ready(function () {
+
+        search = new google.search.WebSearch();
+        
+
+        search.setSearchCompleteCallback(document, handler);
+        search.execute("considered");
+
+
+        
+       /* 
+        for(key in search) {
+          if(search.hasOwnProperty(key)) {
+            $('#target').append("<p>" + key + "&nbsp;&nbsp;&nbsp;" + search[key] + "</p>");
+          }
+        }
+        */
         
         /*
       // Create a search control
@@ -35,13 +57,13 @@
       // Execute an inital search
       searchControl.execute("'Considered harmful'");
       */
-    }
-    google.setOnLoadCallback(OnLoad);
+    });
 
     //]]>
     </script>
   </head>
   <body>
     <div id="searchcontrol">Loading...</div>
+    <div id="target"></div>
   </body>
 </html>
