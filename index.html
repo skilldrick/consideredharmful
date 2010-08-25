@@ -9,15 +9,26 @@
 
     google.load("search", "1");
 
+    function output(text, tag) {
+        if(!tag) {
+            tag = "p";
+        }
+        text = "<" + tag + ">" + text + "</" + tag + ">";
+        $('#target').append(text);
+    }
+
 
     var handler = function () {
         $('#target').append("<h1>" + search.cursor.estimatedResultCount + " results found</h1>");
+
+        $('#target').append("<h2>" + search['results'].length + "</h2>");
+        var results_one = search['results'][0];
+
         
-        for(key in search) {
-            if(search.hasOwnProperty(key)) {
-                $('#target').append(key + "&nbsp;&nbsp;&nbsp;" + search[key] + "<br />");
-            }
+        for(var i = 0; i < search.results.length; i++) {
+            output(search.results[i].title);
         }
+        
     }
 
     
